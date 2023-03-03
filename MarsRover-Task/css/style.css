@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.581),
+      rgba(0, 0, 0, 0.723)
+    ),
+    url(../images/istockphoto-1192845533-612x612.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* homepage */
+.homePage h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38.4px;
+  color: #fff;
+}
+.homePage h2::after {
+  content: "";
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(72, 72, 235);
+  height: 2px;
+  margin: auto;
+}
+/* roverway */
+.roverWay {
+  height: 60px;
+  width: 80px;
+  background-color: transparent;
+}
+/* carMovement */
+.moveCar img {
+  position: absolute;
+  width: 10%;
+  left: 50%;
+  bottom: 35%;
+  transform: translate(-50%, -50%);
+}
+/* direction inputs */
+.data input {
+  background-color: transparent;
+  border: #d4cdcdf1 2px solid;
+  color: white;
+}
+::placeholder {
+  color: #9d9a9a !important;
+  font-weight: lighter;
+}
+.data input:hover {
+  background-color: transparent;
+  box-shadow: none;
+  border: 2px solid #232741;
+  color: #fff;
+}
+.data input:focus {
+  background-color: transparent;
+  box-shadow: none;
+  border: 2px solid #232741;
+  color: #fff;
+}
+.selectOption {
+  background-color: transparent;
+  border: #d4cdcdf1 2px solid;
+  color: #9d9a9a;
+}
+.selectOption:focus {
+  background-color: transparent;
+  box-shadow: none;
+  border: 2px solid #232741;
+}
+.selectOption option {
+  color: #232741;
+  background-color: lightgray;
+}
+

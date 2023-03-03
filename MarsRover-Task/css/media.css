@@ -1,0 +1,38 @@
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .moveCar img {
+    width: 15%;
+    bottom: 35%;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 500px) {
+    .moveCar img {
+        width: 20%;
+        bottom: 37%;
+      }
+      .roverWay
+      {
+        height: 50px;
+        width: 50px;
+      }
+      .homePage h2::after
+      {
+        width: 50%;
+      }
+}
+
+@media screen and (max-width: 499px) {
+    .moveCar img {
+        width: 20%;
+        bottom: 38%;
+      }
+      .roverWay
+      {
+        height: 35px;
+        width: 40px;
+      }
+      .homePage h2::after
+      {
+        width: 30%;
+      }
+      
+}
